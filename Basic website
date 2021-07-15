@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework #1</title>
+  </head>
+  <style>
+    h1 {
+      color: #1a64d6;
+      text-align: center;
+      font-size: 34px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-size: 34px;
+      margin: 10px;
+      font-weight: normal;
+    }
+    ul {
+      list-style: none;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+    }
+
+    li {
+      padding: 10px 0;
+      margin: 0 auto;
+      list-style: none;
+      text-align: center;
+    }
+
+    li:hover{
+        transition: all 200ms ease-in-out;
+        background-color:#FFFBEF;
+        border-radius: 10px;
+        max-width: 400px;
+        padding: 10px;
+
+    }
+
+    .first {
+      font-family: monospace;
+      font-size: 18px;
+    }
+    .second {
+      font-family: monospace;
+      font-size: 18px;
+    }
+
+    .third{
+      font-family: monospace;
+      font-size: 18px;
+
+    }
+
+    button{
+        color: #ffff;
+        background-color: #1a64d6;
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px auto;
+        padding: 16px 24px;
+        border-radius: 30px;
+        box-shadow: rgba(37,39,89,0.08) 0px 8px 8px 0;
+        cursor: pointer;
+        border: 1px solid #1a64d6;
+        transition: all 200ms ease-in-out;
+
+    }
+
+        button:hover {
+        cursor: pointer;
+        background-color: #ffff;
+        color: #1a64d6;;
+      }
+
+      h3{
+          text-align: center;
+          font-family: monospace;
+          font-size: 20px;
+          font-weight: normal;
+          color: grey;
+
+      }
+  </style>
+
+  <body>
+    <h1>
+      ⛅
+      <br />
+      Currently 21° in Tokyo
+    </h1>
+
+    <h2>
+      13° /
+      <strong>23°</strong>
+    </h2>
+</br>
+
+    <ul>
+      <li>
+        <strong>🌨 Tomorrow</strong>
+        <p class="first">10° / <strong>22° </strong></p>
+      </li>
+          </br>
+
+      <li>
+        <strong>🌥 Saturday</strong>
+        <p class="second">15° / <strong>17° </strong></p>
+      </li>
+    </br>
+
+      
+      <li>
+        <strong>
+            ☀Sunday</strong>
+        <p class="third">25° / <strong>28° </strong></p>
+      </li>
+
+    </ul>
+
+    <button>Change city</button>
+
+ 
+
+    <h3>
+        Coded by Oriana Alcala
+    </h3>
+
+
+
+  </body>
+</html>
